@@ -17,7 +17,7 @@ RUN apt-get update && apt-get upgrade -y \
 && apt-get install -y curl make build-essential libssl-dev zlib1g-dev libbz2-dev \
 libreadline-dev libsqlite3-dev wget curl llvm libncurses5-dev libncursesw5-dev \
 xz-utils tk-dev  gcc libxml2-dev libxslt1-dev \
-python3-pip python3-dev && cd /usr/local/bin \
+python3-pip python3-dev python3-tk && cd /usr/local/bin \
 && ln -s /usr/bin/python3 python \
 && pip3 install --upgrade pip
 

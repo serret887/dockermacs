@@ -61,8 +61,8 @@ This function should only modify configuration layer settings."
      yaml
      (python :variables
 ;; python-spacemacs-docker-disable-deps-install nil
-             python-enable-yapf-format-on-save t
-             python-sort-imports-on-save t
+             ;; python-enable-yapf-format-on-save t
+             ;; python-sort-imports-on-save t
              python-test-runner 'pytest
              python-fill-column 85
              python-shell-interpreter 'ipython3

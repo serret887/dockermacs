@@ -7,4 +7,5 @@ docker run -ti --rm -v $('pwd'):/mnt/workspace \
        -v /etc/machine-id:/etc/machine-id:ro \
        -e DISPLAY=$DISPLAY \
        -e TZ=UA \
+       --net=host\
        --name spacemacs serret887/dockermacs
